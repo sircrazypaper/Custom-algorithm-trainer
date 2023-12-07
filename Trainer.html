@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Trainer</title>
+<script src="Trainer.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="Trainer.css">
+</head>
+<body>
+
+  <div id="container">
+
+   <input type="checkbox" id="checkbox"> Random AUF</input>
+
+  <div id="scramble"></div>
+  <div id="alg"></div>
+    <button id="getalg" onclick="showAlg()">Show alg</button>
+
+  <a id="animation" onclick="animation()"></a>
+
+  <div id="timeOut"><span id="min"></span><span id="colon"></span><span id="sec">0</span>.<span id="decimal">00</span></div>
+        <div id = "timeList"></div>
+        <div id = "stats">
+          <a id = "clear" href = "#">Clear Times<a><br/>
+          <span id = "solveNum">Solves: 0</span> <br/>
+          <span id = "overallAv">Median: </span><br/>
+          <span id = "fastest">Best: </span>
+        </div>
+    </div>
+
+</body>
+</html>
